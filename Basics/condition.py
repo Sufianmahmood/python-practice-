@@ -6,3 +6,7 @@ elif temperature > 20:
     print("It's nom day")
 else : 
     print("It's a cold day")
+
+age = int(input("Age: "))
+message = "eligible" if age >= 18 else "not eligible"
+print(message)
